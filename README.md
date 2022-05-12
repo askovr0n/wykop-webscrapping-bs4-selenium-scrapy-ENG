@@ -21,7 +21,7 @@
     * Open Terminal by pressing <kbd>Windows</kbd> + <kbd>R</kbd> and then write cmd.
     * Navigate to the directory where the script is located using the `cd` command.
     * Run `python selenium_wykop.py` command.
-### Scrapy
+### Scrapy (on Windows)
 1. Install BeautifulSoup
     * Open Terminal by pressing <kbd>Windows</kbd> + <kbd>R</kbd> and then write `cmd`.
     * Run `pip install scrapy` command.
