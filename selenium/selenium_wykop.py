@@ -103,7 +103,7 @@ for idx_subpage in range(1, adjust_loop()+1):
             driver.back()
 
     time.sleep(2)
-    driver.find_element(By.XPATH, '//a[contains(text(),"następna")]').click()  # change subpage
+    driver.find_element(By.XPATH, '//a[@class = "button"][contains(text(),"następna")]').click()  # change subpage
 
 driver.quit()
 print("Below you can find your final output, number of scraped articles is equal to {}".format(len(list_of_result)))
