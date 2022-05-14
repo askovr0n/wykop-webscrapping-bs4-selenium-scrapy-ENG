@@ -8,7 +8,7 @@
 2. Run the scraper
     * Open Terminal by pressing <kbd>Windows</kbd> + <kbd>R</kbd> and then write cmd.
     * Navigate to the directory where the script is located using the `cd` command.
-    * Run `python bs_wykop.py` command.
+    * Run `python BS_wykop.py` command.
 ### Selenium (on Windows)
 1. Install GeckoDriver
     * Go to the geckodriver releases page. Find the latest version of the driver for your platform and download it.  
