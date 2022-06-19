@@ -1,5 +1,5 @@
 # Web Scraping and Social Media Scraping Project
-*Authors:* Artur Skowroński, Zuzanna Krypczyk, Zofia Dąbrowska
+*Authors:* Artur Skowroński
 ## Instruction how to run our scrapers
 ### Beautiful Soup (on Windows)
 1. Install BeautifulSoup
