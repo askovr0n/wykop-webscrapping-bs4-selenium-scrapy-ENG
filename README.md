@@ -1,6 +1,6 @@
 # Web Scraping and Social Media Scraping Project
 *Authors:* Artur Skowroński
-## Instruction how to run our scrapers
+## Instruction how to run the scrapers
 ### Beautiful Soup (on Windows)
 1. Install BeautifulSoup
     * Open Terminal by pressing <kbd>Windows</kbd> + <kbd>R</kbd> and then write `cmd`.
