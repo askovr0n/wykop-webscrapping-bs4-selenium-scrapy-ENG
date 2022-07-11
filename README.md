@@ -1,5 +1,17 @@
 # Web Scraping and Social Media Scraping Project
 *Authors:* Artur Skowroński
+
+- wykop.pl contains articles on current news from Poland and the rest of the world, where users have the opportunity to comment freely (unfortunately these are often hate comments)
+- The scope of the analysis is limited to scraping 120 pages of the wykop.pl website, where from each subpage, only the first article was taken into account, which was on the page
+- The codes leave open the possibility of changing the scope of the pages analysed as well as the articles. However, please note that if you set the number of scraped pages too high, your requests will be rejected by the website at some point
+- In each article, the following articles were scraped: title, nickname of the user who posted the article, number of likes/dislikes/views and all the hashtags that have been placed under the article
+- The project was done in 3 different ways using libraries: Beautiful Soup 4, Selenium and Scrapy, which allowed me to check the performance and precision of all the libraries
+- In addition, a brief analysis of the data was carried out using the pandas and matplotlib libraries to see which messages dominated the news zone (as at 11.05.2022, 21.30)
+
+Sample chart from EDA     |  Sample output from BeautifulSoup
+:-------------------------:|:-------------------------:
+![](https://github.com/askovr0n/Portfolio/blob/main/images/Project_8/EDA.png)  |  ![](https://github.com/askovr0n/Portfolio/blob/main/images/Project_8/output.png)
+
 ## Instruction how to run the scrapers
 ### Beautiful Soup (on Windows)
 1. Install BeautifulSoup
